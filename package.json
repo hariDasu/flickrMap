@@ -1,0 +1,32 @@
+{
+  "author": "MapBox",
+  "name": "mapbox.js",
+  "description": "mapbox javascript api",
+  "version": "0.0.0",
+  "homepage": "http://mapbox.com/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mapbox/mapbox.js.git"
+  },
+  "dependencies": {
+    "reqwest": "~0.6.4",
+    "leaflet": "git://github.com/Leaflet/Leaflet.git",
+    "leaflet-hash": "~0.1.0",
+    "leaflet-fullscreen": "0.0.0",
+    "mustache": "~0.7.2"
+  },
+  "scripts": {
+    "test": "mocha-phantomjs test/index.html"
+  },
+  "devDependencies": {
+    "uglify-js": "~2.2.5",
+    "mocha": "~1.8",
+    "expect.js": "~0.2.0",
+    "mocha-phantomjs": "~1.1.1",
+    "happen": "~0.1.2"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
