@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First Webpage</title>
+<link rel="stylesheet" type="text/css" href="fluidlayout.css">
+    <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css' rel='stylesheet' />
+  
+
+</head>
+
+<body>
+    <div id="wrapper" class="body">
+      <div id="banner" class="block">
+      <div id="heading"><h1 id="title">Maps</h1></div> 
+      </div>
+      
+      <div id="left" class="block">
+        Left
+        <ul id="leftNav" class="navigation">
+        <li><a class="a" href="https://www.google.com/" target=_"blank">Google</a></li><br/>
+        <li><a class="a" href="https://www.facebook.com/" target=_"blank">Facebook</a></li><br/>
+        <li><a class="a" href="https://twitter.com/" target=_"blank">Twiter</a></li><br/>
+        <li><a class="a" href="http://www.nba.com/" target=_"blank">NBA</a></li><br/>
+        </ul>
+    </div>
+
+    <div id="center" class="block">
+        
+    <div id="map">
+        <div id='map-ui'>
+          <ul>
+            <li><a href=# class='uiLink'  id='filter-food'>show flickr photos</a></li>
+            <li><a href=# class='uiLink active'  id='filter-all'>show all events</a></li>
+          </ul>
+        </div>
+        <script>
+            // Sagar n Hari
+            // The image and url properties of the features will be used in
+            // the tooltips
+            
+            $(function() {
+                 $('.uiLink').click( function() {
+                     linkId=this.id
+                     //---- build the URL ----
+                     nurl="http://flickr.some.thing.com?getMe=" + linkId
+                     $.ajax (
+                       { 
+                            url :   nurl,
+                            cache:  false ,
+                            success :  function (data) {
+                                 alert ("something came back")
+                            }
+                       }
+                     )
+                 } ) 
+            } )
+
+            var features = [{
+                "geometry": { "type": "Point", "coordinates": [-74.18002,40.743042]},
+                "properties": {
+                    "image": "http://graphics.fansonly.com/schools/njit/graphics/auto/athleticbuilding.gif",
+                    "url": "http://www.njit.edu",
+                    "city": "GYM"
+                    
+                }
+            }, {
+                "geometry": { "type": "Point", "coordinates": [-74.178446,40.742551]},
+                "properties": {
+                    "image": "http://conferenceservices.njit.edu/images/kupfrian-hall.jpg",
+                    "url": "http://www.njit.edu/campustour/vt14-kupfrian.php",
+                    "city": "Kupfrian Hall"
+                    
+                }
+            }, {
+                "geometry": { "type": "Point", "coordinates": [-74.17873,40.741874]},
+                "properties": {
+                    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/NYC_Montage_2011.jpg/275px-NYC_Montage_2011.jpg",
+                    "url": "http://en.wikipedia.org/wiki/New_York_City",
+                    "city": "FMH"
+                    
+                }
+                }, {
+                "geometry": { "type": "Point", "coordinates": [-74.178373,40.743075]},
+                "properties": {
+                    "image": "http://campuscenter.njit.edu/campuscenternight.jpg",
+                    "url": "http://en.wikipedia.org/wiki/New_York_City",
+                    "city": "Campus Center"
+                    
+                }
+                
+            }];
+
+            // Create map
+            var map = mapbox.map('map');
+            map.addLayer(mapbox.layer().id('examples.map-vyofok3q'));
+
+            // Set iniital center and zoom
+            map.centerzoom({
+                lat: 40.742079, 
+                lon: -74.178840
+            }, 20);
+
+                
+        </script>
+      </div>          
+                    
+    </div>
+                
+</div>
+</body>
+
+</html>
