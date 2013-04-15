@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My First Webpage</title>
+<title>flickr@NJIT</title>
 <link rel="stylesheet" type="text/css" href="fluidlayout.css">
     <script src='../node_modules/mongoose/index.html'></script>
     <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
@@ -20,14 +20,14 @@
     <div id="map">
         <div id='map-ui'>
           <ul>
-            <li><a href=# class='uiLink'  id='filter-flickr'>show flickr photos</a></li>
-            <li><a href=# class='uiLink'  id='filter-faves'>show favorite photos</a></li>
-            <li><a href=# class='uiLink'  id='filter-all'>show all events</a></li>
-            <li><a href=# class='uiLink active'  id='filter-njit'>show njit buildings</a></li>
-            <li><a href=# class='uiLink'  id='toggle-full'>toggle fullscreen</a></li>
+            <li class='slideUp'><a href=# class='uiLink'  id='filter-flickr'>show flickr photos</a></li>
+            <li class='slideUp'><a href=# class='uiLink'  id='filter-faves'>show favorite photos</a></li>
+            <li class='slideUp'><a href=# class='uiLink'  id='filter-all'>show all events</a></li>
+            <li class='slideUp'><a href=# class='uiLink active'  id='filter-njit'>show njit buildings</a></li>
+            <li><a href=# class='uiLink'  id='toggle-full'>toggle max view</a></li>
           </ul>
         </div>
-	<div id='map-info'>
+	<div  class='slideUp' id='map-info'>
 		<ul>
 		<li><h2>Project for IS217</h2></li>
 		<li><h3>by Srihari Rao and Sagar Patel</h3></li>
@@ -44,7 +44,7 @@
 	</div>
         <script>
 		$('#toggle-full').click(function() {
-			$('#map-info').slideToggle('slow',function() {
+			$('.slideUp').slideToggle('slow',function() {
 		});
 		});
 
