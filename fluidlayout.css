@@ -1,16 +1,17 @@
 #wrapper {
-width: 90%;
-
+width: 100%;
 margin-left: auto;
 margin-right: auto;
-max-width: 1210px;
+max-width: 1600px;
 }
 #banner {
-    background-color: blue;
+    background-color: white;
     height:20%;
    line-height: normal;
    text-align: center;
    padding-bottom: 2px;
+   position: absolute;
+   z-index: 150;
 }
 
 #primaryLink {
@@ -34,15 +35,15 @@ max-width: 1210px;
     padding-top: 16px;
 	}
 #map {
-padding-top:10px;
 float:left;
  width:100%;
- height:800px;
-  border-radius:50px;
+ height:100%;
+position: absolute;
+z-index: 50;
 }
  #map-ui {
     position:absolute;
-    top:10px;left:10px;
+    top:15px;left:15px;
     z-index:100;
     }
     #map-ui ul {
@@ -76,31 +77,45 @@ float:left;
         border-color:#3887BE;
         color:#FFF;
         }
-#left {
-    max-width: 320px;
-    width: 24%;
-    text-align: left;
-    float: left;
-    overflow: hidden;
+
+ #map-info {
+    position:absolute;
+    float: right;
+    top:15px;right:50px;
+    z-index:100;
+    max-width:300px;
     }
-#left a:hover {
-    background-color:#85ad33;
-    color: white;
-    border-radius:10px;
-    margin: 0px;
-    padding-right:50px;
-    padding-left:50px;
-    padding-bottom: 16px;
-    padding-top: 16px;
-	}	
-    
-#center {
-  
-   min-width:75%;
-    min-height: 800px;
-    float: left;
-    
-}
+    #map-info ul {
+      list-style:none;
+      margin:0;padding:0;
+        font-size:13px;
+        background:#FFF;
+        color:#3C4E5A;
+        display:block;
+        margin:0;padding:0;
+        border:1px solid #BBB;
+        border-bottom-width:0;
+        min-width:138px;
+        padding:10px;
+        text-decoration:none;
+      }
+      #map-info  {
+        }
+      #map-info a:hover { background:#ECF5FA; }
+      #map-info li:last-child a {
+        border-bottom-width:1px;
+        -webkit-border-radius:0 0 3px 3px;
+                border-radius:0 0 3px 3px;
+        }
+      #map-info li:first-child a {
+        -webkit-border-radius:3px 3px 0 0;
+                border-radius:3px 3px 0 0;
+        }
+      #map-info a.active {
+        background:#3887BE;
+        border-color:#3887BE;
+        color:#FFF;
+        }
 
 #footer {
     
@@ -142,7 +157,7 @@ float: left;
 color:#336600;
 }
 
-}
+
 .a:link {
 Text-decoration: none;
 }
