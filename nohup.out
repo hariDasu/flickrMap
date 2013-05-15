@@ -1,0 +1,501 @@
+
+/home/student/henry/hariMaps/jquery.xdomainajax.js:13
+jQuery.ajax = (function(_ajax){
+^
+ReferenceError: jQuery is not defined
+    at Object.<anonymous> (/home/student/henry/hariMaps/jquery.xdomainajax.js:13:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/student/henry/hariMaps/app.js:8:15)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+
+/home/student/henry/hariMaps/jquery.xdomainajax.js:13
+jQuery.ajax = (function(_ajax){
+^
+ReferenceError: jQuery is not defined
+    at Object.<anonymous> (/home/student/henry/hariMaps/jquery.xdomainajax.js:13:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/student/henry/hariMaps/app.js:8:15)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+info: socket.io started
+Express server listening on port 5155
+0
+We are connected
+info: socket.io started
+Express server listening on port 5155
+0
+We are connected
+[90mGET / [36m304 [90m7ms[0m
+[90mGET /fluidlayout.css [36m304 [90m2ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /flickrMap.js [36m304 [90m1ms[0m
+{"geometry":{"type":"Point","coordinates":[-74.038469,40.685449]},"properties":{"image":"http://farm9.static.flickr.com/8254/8696125489_8715514ed9_q.jpg","url":"#","city":"add to favorites","photoId":"8696125489"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.038469,40.685449]},"properties":{"image":"http://farm9.static.flickr.com/8254/8696125489_8715514ed9_q.jpg","url":"#","city":"add to favorites","photoId":"8696125489"},"_id":"51807f36f7a664fd24000001"}
+[90mPOST /addFave [32m200 [90m9ms - 321b[0m
+{"geometry":{"type":"Point","coordinates":[-74.036575,40.68611]},"properties":{"image":"http://farm9.static.flickr.com/8121/8695703961_212fd079ea_q.jpg","url":"#","city":"add to favorites","photoId":"8695703961"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.036575,40.68611]},"properties":{"image":"http://farm9.static.flickr.com/8121/8695703961_212fd079ea_q.jpg","url":"#","city":"add to favorites","photoId":"8695703961"},"_id":"51807f38f7a664fd24000002"}
+[90mPOST /addFave [32m200 [90m2ms - 320b[0m
+{"geometry":{"type":"Point","coordinates":[-74.026565,40.704066]},"properties":{"image":"http://farm9.static.flickr.com/8538/8697651444_c182502126_q.jpg","url":"#","city":"add to favorites","photoId":"8697651444"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.026565,40.704066]},"properties":{"image":"http://farm9.static.flickr.com/8538/8697651444_c182502126_q.jpg","url":"#","city":"add to favorites","photoId":"8697651444"},"_id":"51807f3df7a664fd24000003"}
+[90mPOST /addFave [32m200 [90m2ms - 321b[0m
+[90mGET /getfaves [32m200 [90m5ms - 1.04kb[0m
+[90mGET /null [33m404 [90m2ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m2ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m0ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m3ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /flickrMap.js [36m304 [90m0ms[0m
+[90mGET / [32m206 [90m5ms - 2.22kb[0m
+[90mGET / [32m200 [90m2ms - 2.22kb[0m
+[90mGET /fluidlayout.css [32m200 [90m2ms - 3.03kb[0m
+[90mGET /jquery.xdomainajax.js [32m200 [90m2ms - 2.26kb[0m
+[90mGET /jquery-1.9.1.min.js [32m200 [90m122ms - 90.46kb[0m
+[90mGET /flickrMap.js [32m200 [90m2ms - 7.9kb[0m
+[90mGET / [32m200 [90m3ms - 2.22kb[0m
+[90mGET /fluidlayout.css [32m200 [90m1ms - 3.03kb[0m
+[90mGET /jquery.xdomainajax.js [32m200 [90m2ms - 2.26kb[0m
+[90mGET /flickrMap.js [32m200 [90m2ms - 7.9kb[0m
+[90mGET /jquery-1.9.1.min.js [32m200 [90m36ms - 90.46kb[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /getfaves [32m200 [90m4ms - 1.04kb[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET / [32m200 [90m3ms - 2.22kb[0m
+[90mGET /fluidlayout.css [32m200 [90m1ms - 3.03kb[0m
+[90mGET /jquery-1.9.1.min.js [32m200 [90m1ms - 90.46kb[0m
+[90mGET /jquery.xdomainajax.js [32m200 [90m2ms - 2.26kb[0m
+[90mGET /flickrMap.js [32m200 [90m2ms - 7.9kb[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /getfaves [32m200 [90m3ms - 1.04kb[0m
+[90mGET /favicon.ico [33m404 [90m0ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m0ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m0ms[0m
+[90mGET /flickrMap.js [36m304 [90m1ms[0m
+[90mGET /getfaves [32m200 [90m2ms - 1.04kb[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET /getfaves [36m304 [90m3ms[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET /getfaves [36m304 [90m3ms[0m
+[90mGET /getfaves [36m304 [90m4ms[0m
+[90mGET /getfaves [36m304 [90m4ms[0m
+{"geometry":{"type":"Point","coordinates":[-74.027552,40.697026]},"properties":{"image":"http://farm9.static.flickr.com/8400/8696569602_6e6f595ea7_q.jpg","url":"#","city":"add to favorites","photoId":"8696569602"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.027552,40.697026]},"properties":{"image":"http://farm9.static.flickr.com/8400/8696569602_6e6f595ea7_q.jpg","url":"#","city":"add to favorites","photoId":"8696569602"},"_id":"518084e5f7a664fd24000004"}
+[90mPOST /addFave [32m200 [90m2ms - 321b[0m
+[90mGET /getfaves [32m200 [90m2ms - 1.39kb[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET /null [33m404 [90m2ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m4ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /flickrMap.js [36m304 [90m1ms[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET / [32m200 [90m2ms - 2.22kb[0m
+[90mGET /fluidlayout.css [32m200 [90m1ms - 3.03kb[0m
+[90mGET /jquery.xdomainajax.js [32m200 [90m1ms - 2.26kb[0m
+[90mGET /jquery-1.9.1.min.js [32m200 [90m24ms - 90.46kb[0m
+[90mGET /flickrMap.js [32m200 [90m2ms - 7.9kb[0m
+[90mGET /favicon.ico [33m404 [90m3ms[0m
+[90mGET /apple-touch-icon-precomposed.png [33m404 [90m1ms[0m
+[90mGET /apple-touch-icon.png [33m404 [90m1ms[0m
+[90mGET / [32m200 [90m2ms - 2.22kb[0m
+[90mGET /fluidlayout.css [32m200 [90m2ms - 3.03kb[0m
+[90mGET /jquery.xdomainajax.js [32m200 [90m2ms - 2.26kb[0m
+[90mGET /flickrMap.js [32m200 [90m2ms - 7.9kb[0m
+[90mGET /jquery-1.9.1.min.js [32m200 [90m366ms - 90.46kb[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m2ms[0m
+[90mGET /getfaves [32m200 [90m3ms - 1.39kb[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m2ms[0m
+[90mGET /favicon.ico [33m404 [90m2ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m2ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m2ms[0m
+[90mGET /flickrMap.js [36m304 [90m2ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /getfaves [36m304 [90m16ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m0ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m0ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+
+
+undefined:0
+
+^
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at IncomingMessage.<anonymous> (/home/student/henry/routes/index.js:132:30)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at _stream_readable.js:870:14
+    at process._tickCallback (node.js:415:13)
+info: socket.io started
+Express server listening on port 5155
+4
+We are connected
+[90mGET / [32m200 [90m12ms - 2.22kb[0m
+[90mGET /fluidlayout.css [36m304 [90m3ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /flickrMap.js [36m304 [90m1ms[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m0ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m0ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m0ms[0m
+[90mGET /flickrMap.js [36m304 [90m0ms[0m
+[90mGET /favicon.ico [33m404 [90m3ms[0m
+[90mGET /getfaves [32m200 [90m5ms - 2b[0m
+[90mGET /getfaves [32m200 [90m3ms - 2b[0m
+[90mGET /robots.txt [33m404 [90m1ms[0m
+[90mGET / [32m200 [90m2ms - 2.22kb[0m
+[90mGET /robots.txt [33m404 [90m0ms[0m
+[90mGET / [32m200 [90m1ms - 2.32kb[0m
+[90mGET /fluidlayout.css [32m200 [90m2ms - 3.03kb[0m
+[90mGET /jquery.xdomainajax.js [32m200 [90m2ms - 2.26kb[0m
+[90mGET /jquery-1.9.1.min.js [32m200 [90m28ms - 90.46kb[0m
+[90mGET /flickrMap.js [32m200 [90m1ms - 8.79kb[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /getfaves [32m200 [90m1ms - 2b[0m
+{"geometry":{"type":"Point","coordinates":[-74.044353,40.689131]},"properties":{"image":"http://farm9.static.flickr.com/8131/8697086617_159d233d23_q.jpg","url":"#","city":"add to favorites","photoId":"8697086617"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.044353,40.689131]},"properties":{"image":"http://farm9.static.flickr.com/8131/8697086617_159d233d23_q.jpg","url":"#","city":"add to favorites","photoId":"8697086617"},"_id":"5181195525dc84b625000001"}
+[90mPOST /addFave [32m200 [90m7ms - 321b[0m
+{"geometry":{"type":"Point","coordinates":[-74.035167,40.699]},"properties":{"image":"http://farm9.static.flickr.com/8137/8696832033_9cefebfb77_q.jpg","url":"#","city":"add to favorites","photoId":"8696832033"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.035167,40.699]},"properties":{"image":"http://farm9.static.flickr.com/8137/8696832033_9cefebfb77_q.jpg","url":"#","city":"add to favorites","photoId":"8696832033"},"_id":"5181195a25dc84b625000002"}
+[90mPOST /addFave [32m200 [90m4ms - 318b[0m
+[90mGET /getfaves [32m200 [90m2ms - 709b[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mGET /getfaves [32m200 [90m3ms - 709b[0m
+[90mGET /getfaves [32m200 [90m2ms - 709b[0m
+[90mGET /getfaves [32m200 [90m4ms - 709b[0m
+[90mGET /getfaves [32m200 [90m3ms - 709b[0m
+[90mGET /getfaves [32m200 [90m1ms - 709b[0m
+[90mGET /getfaves [32m200 [90m2ms - 709b[0m
+[90mGET /getfaves [32m200 [90m2ms - 709b[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /getfaves [32m200 [90m12ms - 709b[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+{"geometry":{"type":"Point","coordinates":[-74.041167,40.688666]},"properties":{"image":"http://farm9.static.flickr.com/8122/8696832673_16a3498ecb_q.jpg","url":"#","city":"add to favorites","photoId":"8696832673"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.041167,40.688666]},"properties":{"image":"http://farm9.static.flickr.com/8122/8696832673_16a3498ecb_q.jpg","url":"#","city":"add to favorites","photoId":"8696832673"},"_id":"5181197d25dc84b625000003"}
+[90mPOST /addFave [32m200 [90m2ms - 321b[0m
+{"geometry":{"type":"Point","coordinates":[-74.037834,40.6945]},"properties":{"image":"http://farm9.static.flickr.com/8546/8696832289_d2bd1fdc7a_q.jpg","url":"#","city":"add to favorites","photoId":"8696832289"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.037834,40.6945]},"properties":{"image":"http://farm9.static.flickr.com/8546/8696832289_d2bd1fdc7a_q.jpg","url":"#","city":"add to favorites","photoId":"8696832289"},"_id":"5181198025dc84b625000004"}
+[90mPOST /addFave [32m200 [90m2ms - 319b[0m
+[90mGET /getfaves [32m200 [90m3ms - 1.38kb[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m0ms[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+{"geometry":{"type":"Point","coordinates":[-74.041167,40.688666]},"properties":{"image":"http://farm9.static.flickr.com/8122/8696832673_16a3498ecb_q.jpg","url":"#","city":"add to favorites","photoId":"8696832673"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.041167,40.688666]},"properties":{"image":"http://farm9.static.flickr.com/8122/8696832673_16a3498ecb_q.jpg","url":"#","city":"add to favorites","photoId":"8696832673"},"_id":"5181199625dc84b625000005"}
+[90mPOST /addFave [32m200 [90m2ms - 321b[0m
+{"geometry":{"type":"Point","coordinates":[-74.037834,40.6945]},"properties":{"image":"http://farm9.static.flickr.com/8546/8696832289_d2bd1fdc7a_q.jpg","url":"#","city":"add to favorites","photoId":"8696832289"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.037834,40.6945]},"properties":{"image":"http://farm9.static.flickr.com/8546/8696832289_d2bd1fdc7a_q.jpg","url":"#","city":"add to favorites","photoId":"8696832289"},"_id":"5181199925dc84b625000006"}
+[90mPOST /addFave [32m200 [90m2ms - 319b[0m
+[90mGET /getfaves [32m200 [90m4ms - 2.08kb[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m2ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /flickrMap.js [36m304 [90m0ms[0m
+[90mGET /getfaves [36m304 [90m2ms[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m2ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /flickrMap.js [32m200 [90m1ms - 8.74kb[0m
+[90mGET /getfaves [32m200 [90m1ms - 2b[0m
+[90mGET /getfaves [32m200 [90m2ms - 2b[0m
+{"geometry":{"type":"Point","coordinates":[-74.041167,40.688666]},"properties":{"image":"http://farm9.static.flickr.com/8122/8696832673_16a3498ecb_q.jpg","url":"#","city":"add to favorites","photoId":"8696832673"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.041167,40.688666]},"properties":{"image":"http://farm9.static.flickr.com/8122/8696832673_16a3498ecb_q.jpg","url":"#","city":"add to favorites","photoId":"8696832673"},"_id":"51811a9025dc84b625000007"}
+[90mPOST /addFave [32m200 [90m3ms - 321b[0m
+{"geometry":{"type":"Point","coordinates":[-74.035167,40.699]},"properties":{"image":"http://farm9.static.flickr.com/8137/8696832033_9cefebfb77_q.jpg","url":"#","city":"add to favorites","photoId":"8696832033"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.035167,40.699]},"properties":{"image":"http://farm9.static.flickr.com/8137/8696832033_9cefebfb77_q.jpg","url":"#","city":"add to favorites","photoId":"8696832033"},"_id":"51811a9325dc84b625000008"}
+[90mPOST /addFave [32m200 [90m2ms - 318b[0m
+[90mGET /getfaves [32m200 [90m2ms - 709b[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mGET /getfaves [32m200 [90m1ms - 709b[0m
+[90mGET /getfaves [32m200 [90m2ms - 709b[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mGET /getfaves [32m200 [90m1ms - 709b[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mGET /getfaves [32m200 [90m6ms - 709b[0m
+[90mGET /getfaves [32m200 [90m1ms - 709b[0m
+[90mGET /getfaves [32m200 [90m2ms - 709b[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m0ms[0m
+[90mGET /flickrMap.js [36m304 [90m1ms[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mGET /getfaves [32m200 [90m2ms - 2b[0m
+{"geometry":{"type":"Point","coordinates":[-74.044353,40.689131]},"properties":{"image":"http://farm9.static.flickr.com/8131/8697086617_159d233d23_q.jpg","url":"#","city":"add to favorites","photoId":"8697086617"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.044353,40.689131]},"properties":{"image":"http://farm9.static.flickr.com/8131/8697086617_159d233d23_q.jpg","url":"#","city":"add to favorites","photoId":"8697086617"},"_id":"51811bd225dc84b625000009"}
+[90mPOST /addFave [32m200 [90m3ms - 321b[0m
+[90mGET /getfaves [32m200 [90m4ms - 357b[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mGET /getfaves [32m200 [90m2ms - 357b[0m
+[90mDELETE /delfaves [33m404 [90m0ms[0m
+[90mGET / [36m304 [90m5ms[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /flickrMap.js [32m200 [90m1ms - 8.8kb[0m
+[90mGET /getfaves [32m200 [90m14ms - 2b[0m
+{"geometry":{"type":"Point","coordinates":[-74.041667,40.687999]},"properties":{"image":"http://farm9.static.flickr.com/8559/8696832961_430c6780c1_q.jpg","url":"#","city":"add to favorites","photoId":"8696832961"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.041667,40.687999]},"properties":{"image":"http://farm9.static.flickr.com/8559/8696832961_430c6780c1_q.jpg","url":"#","city":"add to favorites","photoId":"8696832961"},"_id":"51811e5825dc84b62500000a"}
+[90mPOST /addFave [32m200 [90m2ms - 321b[0m
+{"geometry":{"type":"Point","coordinates":[-74.037834,40.6945]},"properties":{"image":"http://farm9.static.flickr.com/8546/8696832289_d2bd1fdc7a_q.jpg","url":"#","city":"add to favorites","photoId":"8696832289"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.037834,40.6945]},"properties":{"image":"http://farm9.static.flickr.com/8546/8696832289_d2bd1fdc7a_q.jpg","url":"#","city":"add to favorites","photoId":"8696832289"},"_id":"51811e5b25dc84b62500000b"}
+[90mPOST /addFave [32m200 [90m2ms - 319b[0m
+[90mGET /getfaves [32m200 [90m2ms - 710b[0m
+[90mDELETE /delfaves?callback=jQuery1910728160939129652_1367402039230 [33m404 [90m1ms[0m
+[90mGET /getfaves [32m200 [90m2ms - 710b[0m
+[90mDELETE /delfaves?callback=jQuery1910728160939129652_1367402039230 [33m404 [90m0ms[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m0ms[0m
+[90mGET /flickrMap.js [32m200 [90m1ms - 8.8kb[0m
+[90mGET /getfaves [32m200 [90m1ms - 2b[0m
+[90mGET /getfaves [32m200 [90m2ms - 2b[0m
+{"geometry":{"type":"Point","coordinates":[-74.041167,40.688666]},"properties":{"image":"http://farm9.static.flickr.com/8122/8696832673_16a3498ecb_q.jpg","url":"#","city":"add to favorites","photoId":"8696832673"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.041167,40.688666]},"properties":{"image":"http://farm9.static.flickr.com/8122/8696832673_16a3498ecb_q.jpg","url":"#","city":"add to favorites","photoId":"8696832673"},"_id":"51811f9925dc84b62500000c"}
+[90mPOST /addFave [32m200 [90m1ms - 321b[0m
+[90mGET /getfaves [32m200 [90m2ms - 357b[0m
+[90mPUT /delfaves?callback=jQuery19106446451550106543_1367402367596 [33m404 [90m0ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET / [32m200 [90m2ms - 2.32kb[0m
+[90mGET /fluidlayout.css [32m200 [90m1ms - 3.03kb[0m
+[90mGET /jquery.xdomainajax.js [32m200 [90m2ms - 2.26kb[0m
+[90mGET /jquery-1.9.1.min.js [32m200 [90m95ms - 90.46kb[0m
+[90mGET /flickrMap.js [32m200 [90m1ms - 8.8kb[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m0ms[0m
+[90mGET /null [33m404 [90m0ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m2ms[0m
+[90mGET / [32m200 [90m2ms - 2.32kb[0m
+[90mGET /fluidlayout.css [32m200 [90m1ms - 3.03kb[0m
+[90mGET /jquery.xdomainajax.js [32m200 [90m1ms - 2.26kb[0m
+[90mGET /jquery-1.9.1.min.js [32m200 [90m30ms - 90.46kb[0m
+[90mGET /flickrMap.js [32m200 [90m1ms - 8.8kb[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m0ms[0m
+[90mGET /fluidlayout.css [36m304 [90m0ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m0ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /flickrMap.js [36m304 [90m1ms[0m
+{"geometry":{"type":"Point","coordinates":[-74.037834,40.6945]},"properties":{"image":"http://farm9.static.flickr.com/8546/8696832289_d2bd1fdc7a_q.jpg","url":"#","city":"add to favorites","photoId":"8696832289"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.037834,40.6945]},"properties":{"image":"http://farm9.static.flickr.com/8546/8696832289_d2bd1fdc7a_q.jpg","url":"#","city":"add to favorites","photoId":"8696832289"},"_id":"5181238d25dc84b62500000d"}
+[90mPOST /addFave [32m200 [90m2ms - 319b[0m
+{"geometry":{"type":"Point","coordinates":[-74.041167,40.688666]},"properties":{"image":"http://farm9.static.flickr.com/8122/8696832673_16a3498ecb_q.jpg","url":"#","city":"add to favorites","photoId":"8696832673"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.041167,40.688666]},"properties":{"image":"http://farm9.static.flickr.com/8122/8696832673_16a3498ecb_q.jpg","url":"#","city":"add to favorites","photoId":"8696832673"},"_id":"5181239025dc84b62500000e"}
+[90mPOST /addFave [32m200 [90m2ms - 321b[0m
+[90mGET /getfaves [32m200 [90m2ms - 710b[0m
+[90mPUT /delfaves?callback=jQuery191016380055117238912_1367417778463 [33m404 [90m0ms[0m
+[90mGET /getfaves [32m200 [90m2ms - 710b[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m0ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /flickrMap.js [32m200 [90m1ms - 8.8kb[0m
+[90mGET /getfaves [32m200 [90m2ms - 2b[0m
+{"geometry":{"type":"Point","coordinates":[-74.037834,40.6945]},"properties":{"image":"http://farm9.static.flickr.com/8546/8696832289_d2bd1fdc7a_q.jpg","url":"#","city":"add to favorites","photoId":"8696832289"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.037834,40.6945]},"properties":{"image":"http://farm9.static.flickr.com/8546/8696832289_d2bd1fdc7a_q.jpg","url":"#","city":"add to favorites","photoId":"8696832289"},"_id":"5181256925dc84b62500000f"}
+[90mPOST /addFave [32m200 [90m3ms - 319b[0m
+{"geometry":{"type":"Point","coordinates":[-74.044353,40.689131]},"properties":{"image":"http://farm9.static.flickr.com/8131/8697086617_159d233d23_q.jpg","url":"#","city":"add to favorites","photoId":"8697086617"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.044353,40.689131]},"properties":{"image":"http://farm9.static.flickr.com/8131/8697086617_159d233d23_q.jpg","url":"#","city":"add to favorites","photoId":"8697086617"},"_id":"5181256b25dc84b625000010"}
+[90mPOST /addFave [32m200 [90m2ms - 321b[0m
+[90mGET /getfaves [32m200 [90m2ms - 710b[0m
+[90mDELETE /delfaves?callback=jQuery191013656700110494047_1367418257500 [33m404 [90m0ms[0m
+[90mGET / [36m304 [90m0ms[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m0ms[0m
+[90mGET /flickrMap.js [32m200 [90m2ms - 8.8kb[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m0ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m0ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /flickrMap.js [36m304 [90m1ms[0m
+[90mGET / [32m200 [90m1ms - 2.32kb[0m
+[90mGET /fluidlayout.css [32m200 [90m1ms - 3.03kb[0m
+[90mGET /jquery.xdomainajax.js [32m200 [90m2ms - 2.26kb[0m
+[90mGET /flickrMap.js [32m200 [90m1ms - 8.8kb[0m
+[90mGET /jquery-1.9.1.min.js [32m200 [90m82ms - 90.46kb[0m
+[90mGET /favicon.ico [33m404 [90m0ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /getfaves [32m200 [90m4ms - 2b[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mDELETE /delfaves?callback=jQuery191011071673291735351_1367419310793 [33m404 [90m0ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m0ms[0m
+[90mGET /favicon.ico [33m404 [90m0ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /getfaves [32m200 [90m2ms - 2b[0m
+[90mGET /favicon.ico [33m404 [90m2ms[0m
+[90mDELETE /delfaves?callback=jQuery191011071673291735351_1367419310793 [33m404 [90m0ms[0m
+[90mGET /favicon.ico [33m404 [90m0ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /favicon.ico [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /getfaves [32m200 [90m1ms - 2b[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m0ms[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /flickrMap.js [32m200 [90m1ms - 8.8kb[0m
+{"geometry":{"type":"Point","coordinates":[-74.035167,40.699]},"properties":{"image":"http://farm9.static.flickr.com/8137/8696832033_9cefebfb77_q.jpg","url":"#","city":"add to favorites","photoId":"8696832033"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.035167,40.699]},"properties":{"image":"http://farm9.static.flickr.com/8137/8696832033_9cefebfb77_q.jpg","url":"#","city":"add to favorites","photoId":"8696832033"},"_id":"51812f8b25dc84b625000011"}
+[90mPOST /addFave [32m200 [90m2ms - 318b[0m
+[90mGET /getfaves [32m200 [90m2ms - 354b[0m
+[90mDELETE /delfaves?callback=jQuery191025896302501243396_1367420844103 [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m0ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /flickrMap.js [32m200 [90m1ms - 8.67kb[0m
+[90mGET /null [33m404 [90m2ms[0m
+[90mGET /getfaves [32m200 [90m1ms - 2b[0m
+{"geometry":{"type":"Point","coordinates":[-74.044353,40.689131]},"properties":{"image":"http://farm9.static.flickr.com/8131/8697086617_159d233d23_q.jpg","url":"#","city":"add to favorites","photoId":"8697086617"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.044353,40.689131]},"properties":{"image":"http://farm9.static.flickr.com/8131/8697086617_159d233d23_q.jpg","url":"#","city":"add to favorites","photoId":"8697086617"},"_id":"518131d125dc84b625000012"}
+[90mPOST /addFave [32m200 [90m2ms - 321b[0m
+[90mGET /getfaves [32m200 [90m2ms - 357b[0m
+[90mDELETE /delfaves [33m404 [90m1ms[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m0ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m0ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /flickrMap.js [32m200 [90m1ms - 8.67kb[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m0ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m0ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m0ms[0m
+{"geometry":{"type":"Point","coordinates":[-74.044353,40.689131]},"properties":{"image":"http://farm9.static.flickr.com/8131/8697086617_159d233d23_q.jpg","url":"#","city":"add to favorites","photoId":"8697086617"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.044353,40.689131]},"properties":{"image":"http://farm9.static.flickr.com/8131/8697086617_159d233d23_q.jpg","url":"#","city":"add to favorites","photoId":"8697086617"},"_id":"5181329725dc84b625000013"}
+[90mPOST /addFave [32m200 [90m1ms - 321b[0m
+[90mGET /getfaves [32m200 [90m1ms - 357b[0m
+[90mDELETE /delfaves/:id [33m404 [90m0ms[0m
+[90mGET / [32m200 [90m3ms - 2.32kb[0m
+[90mGET /fluidlayout.css [32m200 [90m1ms - 3.03kb[0m
+[90mGET /jquery-1.9.1.min.js [32m200 [90m1ms - 90.46kb[0m
+[90mGET /jquery.xdomainajax.js [32m200 [90m2ms - 2.26kb[0m
+[90mGET /flickrMap.js [32m200 [90m1ms - 8.67kb[0m
+[90mGET / [32m200 [90m1ms - 2.32kb[0m
+[90mGET /fluidlayout.css [32m200 [90m1ms - 3.03kb[0m
+[90mGET /jquery.xdomainajax.js [32m200 [90m2ms - 2.26kb[0m
+[90mGET /jquery-1.9.1.min.js [32m200 [90m31ms - 90.46kb[0m
+[90mGET /flickrMap.js [32m200 [90m1ms - 8.64kb[0m
+[90mGET /favicon.ico [33m404 [90m2ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+{"geometry":{"type":"Point","coordinates":[-74.019167,40.706]},"properties":{"image":"http://farm9.static.flickr.com/8259/8699552806_29dafbec98_q.jpg","url":"#","city":"add to favorites","photoId":"8699552806"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.019167,40.706]},"properties":{"image":"http://farm9.static.flickr.com/8259/8699552806_29dafbec98_q.jpg","url":"#","city":"add to favorites","photoId":"8699552806"},"_id":"5181cfa425dc84b625000014"}
+[90mPOST /addFave [32m200 [90m3ms - 318b[0m
+{"geometry":{"type":"Point","coordinates":[-74.044654,40.689188]},"properties":{"image":"http://farm9.static.flickr.com/8534/8700374280_321529077a_q.jpg","url":"#","city":"add to favorites","photoId":"8700374280"}}
+Success: {"geometry":{"type":"Point","coordinates":[-74.044654,40.689188]},"properties":{"image":"http://farm9.static.flickr.com/8534/8700374280_321529077a_q.jpg","url":"#","city":"add to favorites","photoId":"8700374280"},"_id":"5181cfa725dc84b625000015"}
+[90mPOST /addFave [32m200 [90m2ms - 321b[0m
+[90mGET /getfaves [32m200 [90m1ms - 709b[0m
+[90mGET /delfaves [33m404 [90m2ms[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m0ms[0m
+[90mGET /flickrMap.js [36m304 [90m1ms[0m
+[90mGET /getfaves [32m200 [90m2ms - 709b[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /null [33m404 [90m1ms[0m
+[90mGET /getfaves [32m200 [90m1ms - 709b[0m
+[90mGET /delfaves [33m404 [90m1ms[0m
