@@ -1,5 +1,7 @@
 # mapbox.js
 
+This project was created using the flickr API in conjunction with the mapBox API and getJSON/AJAX jQuery requests. See '217Project.docx' for a more thorough explanation.
+
 [![Build Status](https://travis-ci.org/mapbox/mapbox.js.png?branch=v1)](https://travis-ci.org/mapbox/mapbox.js)
 
 (work in progress)
