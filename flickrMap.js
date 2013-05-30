@@ -159,7 +159,7 @@ function fetchGeotags(picArray)
               }
           } 
         ) .done( function(geo) {
-               geoTag  = JSON && JSON.parse(geo) || $.parseJSON(geo)
+               geoTag  = geo
                var longi = geoTag.photo.location.latitude
                var lati = geoTag.photo.location.longitude
                console.log("geoTag"+geoTag)
@@ -208,7 +208,7 @@ function fetchAllPictures() {
        ) 
        .done( function(data) {
             console.log ("Got all Pics - about to call fetchGeoTags")
-            stuff = JSON && JSON.parse(data) || $.parseJSON(data)
+            stuff = data
             allPics=stuff.photos.photo
             console.log(allPics)
             fetchGeotags(allPics);
