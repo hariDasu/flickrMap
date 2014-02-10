@@ -499,3 +499,21 @@ Success: {"geometry":{"type":"Point","coordinates":[-74.044654,40.689188]},"prop
 [90mGET /null [33m404 [90m1ms[0m
 [90mGET /getfaves [32m200 [90m1ms - 709b[0m
 [90mGET /delfaves [33m404 [90m1ms[0m
+info: socket.io started
+Express server listening on port 28341
+0
+We are connected
+info: socket.io started
+warn: error raised: Error: listen EADDRINUSE
+0
+We are connected
+[90mGET / [36m304 [90m4ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /fluidlayout.css [36m304 [90m0ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m0ms[0m
+[90mGET /flickrMap.js [36m304 [90m1ms[0m
+[90mGET / [36m304 [90m0ms[0m
+[90mGET /fluidlayout.css [36m304 [90m0ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m0ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m0ms[0m
+[90mGET /flickrMap.js [36m304 [90m1ms[0m

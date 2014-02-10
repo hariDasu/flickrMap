@@ -8,7 +8,7 @@ var photos = require('./routes/index');
 //var xdomain = require('./jquery.xdomainajax');
 
 app.configure(function () {
-    app.set('port', process.env.PORT || 5155);
+    app.set('port', process.env.PORT || 28341);
     app.use(express.logger('dev'));  /* 'default', 'short', 'tiny', 'dev' */
     app.use(express.static('./flickrMapSS.js'));
    // app.use(express.static('./jquery.xdomainajax.js'));
