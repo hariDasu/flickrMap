@@ -1,0 +1,9 @@
+info: socket.io started
+Express server listening on port 28341
+0
+We are connected
+[90mGET / [32m200 [90m15ms - 2.51kb[0m
+[90mGET /fluidlayout.css [36m304 [90m1ms[0m
+[90mGET /jquery-1.9.1.min.js [36m304 [90m1ms[0m
+[90mGET /jquery.xdomainajax.js [36m304 [90m0ms[0m
+[90mGET /flickrMap.js [36m304 [90m1ms[0m

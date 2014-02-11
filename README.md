@@ -1,6 +1,6 @@
 # mapbox.js
 
-This project was created using the flickr API in conjunction with the mapBox API and getJSON/AJAX jQuery requests. See '217Project.docx' for a more thorough explanation. This demo is running on a node.JS server using command "nohup node app.js &", keeping it running as a background process so it should work unless the server has been rebooted since I ran this process. This demo should work on all browsers including Internet Explorer, Opera, Safari, Chrome, and Firefox.
+This project was created using the flickr API in conjunction with the mapBox API and getJSON/AJAX jQuery requests. See '217Project.docx' for a more thorough explanation. This demo is running on a node.JS server using the forever module running as a daemon. Running it as a daemon enables it to restart if the machine itself is rebooted. It will be down only during maintenance or further development or if there is an issue with the hosting service at a particular time. This demo should work on all browsers including Internet Explorer, Opera, Safari, Chrome, and Firefox.
 
 Implementation: http://flickrmap.pytools.webfactional.com/
 
